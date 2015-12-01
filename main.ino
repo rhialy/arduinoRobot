@@ -70,7 +70,7 @@ void measuring() {
   } else {
     isObstacle = false;
   }
-  }
+
 }
 
 
