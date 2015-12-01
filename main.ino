@@ -31,6 +31,7 @@ int fast = 255; // fast speed (of 255 max)
 
 void setup() { //---6 Pins being used are outputs--- 
 
+Serial.begin(9600);
 pinMode(leftmotorForward, OUTPUT);
 pinMode(leftmotorBackward, OUTPUT);
 pinMode(leftmotorspeed, OUTPUT);
