@@ -79,9 +79,9 @@ void measuring() {
 void turnLeft() {
   analogWrite(leftmotorspeed,Fast);
   digitalWrite(leftmotorBackward,LOW);
-  digitalWrite(leftmotorForward,HIGH);
   digitalWrite(rightmotorBackward,LOW);
   digitalWrite(rightmotorForward,LOW);
+  digitalWrite(leftmotorForward,HIGH);
 }
 
 void turnLeft() {
