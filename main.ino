@@ -3,8 +3,8 @@
 
 // --- Variables for sensors ---------
 
-#define  TRIGGER_PIN  11
-#define  ECHO_PIN     10
+#define  TRIGGER_PIN  0
+#define  ECHO_PIN     1
 #define MAX_DISTANCE 200
 
 int DistanceIn;
